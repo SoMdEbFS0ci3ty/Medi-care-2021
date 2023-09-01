@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200&display=swap');
+*{
+	margin: 0;
+	padding: 0;
+	 font-family: 'Poppins', sans-serif;
+}
+.admin{
+	 
+	 
+	width: 100%; 
+}
+.admin b{
+   animation-play-state: running; 
+   animation-duration: 500ms;
+   animation-name: blink ;
+   animation-iteration-count: infinite;
+   animation-direction: alternate-reverse;
+   
+}
+@keyframes blink {
+   from {opacity: 1;}
+   to {opacity: 0.3;
+   }
+   from { color: green; }
+   to { color: white; }
+  }
+ }
+ .input-group {
+  margin: 10px 0px 10px 0px;
+}
+ .btn {
+  padding: 10px;
+  font-size: 15px;
+  color: black;
+  background-color: #35a644;
+  border-radius: 5px;
+  border: 2px solid  #b3b3cc;
+}
+.btn1{
+  padding: 10px;
+  font-size: 15px;
+  color: black;
+  background-color: red;
+  border-radius: 5px;
+  border: 2px solid  #b3b3cc;
+}
+ /*table contens*/
+ .content-table {
+  border-collapse: collapse;
+  margin-left: auto;
+  margin-right: auto;
+  font-size: 0.9em;
+  min-width: 400px;
+  border-radius: 5px 5px 0 0;
+  overflow: hidden;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+}
+
+.content-table thead tr {
+  background-color: #4a90e2;
+  color: #ffffff;
+  text-align: center;
+  font-weight: bold;
+}
+
+.content-table th,
+.content-table td {
+  padding: 12px 15px;
+  text-align: center;
+}
+
+.content-table tbody tr {
+  border-bottom: 1px solid #dddddd;
+}
+
+.content-table tbody tr:nth-of-type(even) {
+  background-color: #f3f3f3;
+}
+
+.content-table tbody tr:last-of-type {
+  border-bottom: 4px solid #4a90e2;
+}
+
+.content-table tbody tr.active-row {
+  font-weight: bold;
+  color: #4a90e2;
+}

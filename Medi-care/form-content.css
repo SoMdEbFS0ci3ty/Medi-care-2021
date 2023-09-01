@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200&display=swap');
+*{
+  margin: 0;
+  padding: 0;
+   font-family: 'Poppins', sans-serif;
+}
+
+body {
+  font-size: 120%;
+   
+}
+
+.header {
+  width: 30%;
+  margin: 50px auto 0px;
+ color: honeydew;
+  text-align: center;
+  border: 1px solid #26d466;
+  border-bottom: navajowhite;
+  border-radius: 10px 10px 0px 0px;
+  padding: 20px;
+  
+}
+.content {
+  width: 50%;
+  margin: 0px auto;
+  padding: 20px;
+  border: 1px solid #26d466;
+  background: #b0c4de;
+  border-radius: 0px 0px 10px 10px;
+}
+.input-group {
+  margin: 10px 0px 10px 0px;
+}
+.input-group label {
+  display: flex;
+  text-align: left;
+  margin: 3px;
+}
+.input-group input {
+  /*height: 30px;*/
+  width: 93%;
+  padding: 12px 20px;
+  font-size: 16px;
+  border-radius: 5px;
+  border: 1px solid gray;
+  box-sizing: border-box;
+  
+}
+.btn {
+  padding: 10px;
+  font-size: 15px;
+  color: white;
+  background: #35a644;
+  border: none;
+  border-radius: 5px;
+}
+.error {
+  width: 92%; 
+  margin: 0px auto; 
+  padding: 10px; 
+  border: 1px solid #a94442; 
+  color: #a94442; 
+  background: #f2dede; 
+  border-radius: 5px; 
+  text-align: left;
+}
+.success {
+  color: #3c763d; 
+  background: #dff0d8; 
+  border: 1px solid #3c763d;
+  margin-bottom: 20px;
+}
+.container{
+  max-width: 1170px;
+  margin:auto;
+}
+@media(max-width: 767px){
+  .admin{
+    width: 50%;
+    margin-bottom: 30px;
+}
+}
+@media(max-width: 574px){
+  .adminfooter-col{
+    width: 100%;
+}
+}
+
+/*.login{
+  background-image:url('C:/xampp/htdocs/Medi-care/img/login.jpg');
+  background-attachment: fixed;
+}*/
